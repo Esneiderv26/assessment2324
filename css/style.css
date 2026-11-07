@@ -1,1 +1,52 @@
-/* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
+@import url("https://fonts.googleapis.com/css2?family=Short+Stack&family=Russo+One&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Short Stack", cursive;
+    background-color: #ffffff;
+}
+
+h1, h2, h3 {
+    font-family: "Russo One", sans-serif;
+}
+
+header {
+    background-color: #591E1E;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    gap: 8px;
+}
+.contact {
+    flex: 1;
+    text-align: right;
+}
+
+.logo {
+    height: 70px;
+}
+
+.menu a,
+.contact a {
+    background-color: #D9CCD5;
+    color: #591E1E;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.menu a:hover,
+.contact a:hover {
+    background-color: #734F43;
+    color: #D9CCD5;
+}
