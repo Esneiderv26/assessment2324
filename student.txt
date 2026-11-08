@@ -2,4 +2,4 @@ Student name: Esneider Vargas Jaime
 Student number: 761509
 Student class: HAIT26FT1A
 GitHub Repository: https://github.com/Esneiderv26/Web-Markup-Assessment.git
-GitHub Pages URL: your github pages URL
+GitHub Pages URL: https://esneiderv26.github.io/assessment2324/
