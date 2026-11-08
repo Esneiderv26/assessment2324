@@ -232,12 +232,6 @@ header img {
     color: #591E1E;
 }
 
-.menu a.active,
-.contact a.active {
-    background-color: #734F43;
-    color: #D9CCD5;
-}
-
 .mobile-menu {
     display: none;
 }
@@ -257,7 +251,7 @@ header img {
         display: none;
     }
  
-    header img {
+    .logo img {
         height: 40px;
     }
  
@@ -361,33 +355,34 @@ header img {
  
     .see-menu {
         font-size: 13px;
+        margin-bottom: 80px;
     }
  
     .circle {
-        width: 170px;
-        height: 170px;
+        width: 250px;
+        height: 250px;
         padding: 25px;
-        margin-left: -40px;
+        margin-left: -55px;
         margin-right: 0;
-        margin-bottom: -45px;
+        margin-bottom: -55px;
     }
- 
+
     .circle img {
         width: 100%;
         height: 100%;
         border-width: 6px;
     }
- 
+
     .square {
-        width: 170px;
-        height: 170px;
+        width: 220px;
+        height: 220px;
         padding: 10px;
         border-width: 6px;
         margin-left: -15px;
         margin-right: 0;
         margin-bottom: 0;
     }
- 
+
     .square img {
         border-width: 5px;
     }
