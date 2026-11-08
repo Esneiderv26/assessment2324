@@ -55,6 +55,12 @@ header img {
     color: #D9CCD5;
 }
 
+.menu a.active,
+.contact a.active {
+    background-color: #734F43;
+    color: #D9CCD5;
+}
+
 .background {
     background-image: url("../img/background.png");
     background-size: cover;
@@ -90,4 +96,67 @@ header img {
 
 .text p:last-child {
     margin-bottom: 0;
+}
+
+.italian {
+    background-image: url("../img/italian.png");
+    justify-content: space-between;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.italian h1 {
+    font-size: 64px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.italian .text {
+    max-width: 460px;
+}
+
+.plate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.see-menu {
+    background-color: rgba(89, 30, 30, 0.9);
+    color: #D9CCD5;
+    border: 2px solid #D9CCD5;
+    border-radius: 6px;
+    padding: 6px 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.see-menu:hover {
+    background-color: #D9CCD5;
+    color: #591E1E;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    background-color: #734F43;
+    border-radius: 50%;
+    margin-right: -100px;
+    margin-bottom: -70px;
+    border: 10px solid #591E1E;
+}
+
+.circle img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid #591E1E;
 }
