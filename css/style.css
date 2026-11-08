@@ -18,7 +18,11 @@ header {
     background-color: #591E1E;
     display: flex;
     align-items: center;
-    padding: 15px 30px;
+    padding: 8px 30px;
+}
+
+header img {
+    height: 60px;
 }
 
 .menu {
@@ -31,7 +35,7 @@ header {
     text-align: right;
 }
 
-.logo {
+.logo img {
     height: 70px;
 }
 
@@ -49,4 +53,41 @@ header {
 .contact a:hover {
     background-color: #734F43;
     color: #D9CCD5;
+}
+
+.background {
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 680px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 50px 20px 50px;
+    gap: 15px;
+}
+
+.background h1,
+.text {
+    background-color: rgba(89, 30, 30, 0.9);
+    color: #D9CCD5;
+    border: 5px solid #D9CCD5;
+    padding: 15px 20px;
+}
+
+.background h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+.text p {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.text p:last-child {
+    margin-bottom: 0;
 }
